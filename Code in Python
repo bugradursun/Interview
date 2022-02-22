@@ -1,0 +1,13 @@
+a=int(input("Enter an input"))
+b=int(input("Enter an input"))
+
+if (a == b) :
+    quit()
+else : 
+    a=a+b
+    b=a-b
+    a=a-b
+    print("1st variable:" + str(a))
+    print("2nd variable:" + str(b))
+    
+    
